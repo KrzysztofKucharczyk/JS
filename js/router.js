@@ -1,6 +1,5 @@
 'use strict';
 
-
 var router = (function() {
 
     var homePage = document.getElementById('homePage'),
@@ -26,5 +25,3 @@ var router = (function() {
     };
 
 })();
-
-//router.showHomePage();
