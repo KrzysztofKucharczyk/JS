@@ -1,26 +1,39 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Blog Post](http://startbootstrap.com/template-overviews/blog-post/)
-
-[Blog Post](http://startbootstrap.com/template-overviews/blog-post/) is a basic blog post HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+# My very own, first vanilla JS webpage ever
 
 ## Getting Started
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+This is my single-page-website created with techologies like: HTML 5.0, CSS 3.0, JavaScript
+language, Bootstrap template and jQuery library and Karma&Jasmine for testing purpose. It consists
+of only one page, which is used in very nifty way by showing and hiding appropriate sections with css.
 
-## Bugs and Issues
+## Sections
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-blog-post/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/blog-post/).
+Page consists of following sections:
+* Homepage - simple welcome page.
+* Calculator - which is capable of doing very primitive operations which is addition, substraction, multiplication and division. It can also counts factorial.
+* Request - which sends a request and obtain data from local file, to fill table with them.
 
-## Creator
+## Working with file
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+File, which data should be displayed in table, must be a JSON file.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Example of appropriate file:
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+```
+[                                               
 
-## Copyright and License
+      {                                         
+         "title":"Hrabia Monte Christo",        
+         "author":"Alexander Dumas"             
+      },                                        
+      {                                         
+         "title":"Quo Vadis",                   
+         "author":"Henio Sienio"                
+      },                                        
+      {                                         
+         "title":"Ojciec Chrzestny",            
+         "author":"Mario Puzo"                  
+      }                                         
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-blog-post/blob/gh-pages/LICENSE) license.
+]     
+```
