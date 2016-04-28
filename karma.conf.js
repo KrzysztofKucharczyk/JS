@@ -17,11 +17,7 @@ module.exports = function(config) {
     files: [
       './js/jquery.js',
       './js/bootstrap.js',
-      './js/router.js',
-      './js/calculatorController.js',
       './js/calculatorService.js',
-      './js/serverCommunication.js',
-      './js/init.js',
       './js/calculatorService.spec.js'
     ],
 
